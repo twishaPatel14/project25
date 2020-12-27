@@ -58,7 +58,7 @@ class dustbin
 			fill(255)
 			rect(0,0,this.dustbinWidth, this.wallThickness);
 			imageMode(CENTER);
-			this.image(this.image,0,-this.dustbinHeight/2,this.dustbinWidth,this.dustbinHeight)
+			image(this.image,0,-this.dustbinHeight/2,this.dustbinWidth,this.dustbinHeight)
 			//rect(0,0,this.dustbinWidth, this.wallThickness);
 			pop()
 	}

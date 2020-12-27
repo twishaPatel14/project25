@@ -36,14 +36,15 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
-  dustbinObj.display();
+  background('white');
   paperObject.display();
+  dustbinObj.display();
+ 
   groundObject.display();
 }
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
-    	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85});
+    	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:220,y:-200});
 
   	}
 } 
