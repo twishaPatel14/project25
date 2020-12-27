@@ -19,7 +19,6 @@ function setup() {
 	groundObject=new ground(width/2,670,width,20);
 	
 
-
 	var render = Render.create({
 	  element: document.body,
 	  engine: engine,
@@ -31,7 +30,8 @@ function setup() {
 	});
 
 	Engine.run(engine);
-	
+	//Render.run(render);
+
 }
 
 

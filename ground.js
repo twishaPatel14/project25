@@ -11,11 +11,14 @@ class ground
 		this.h=h
 		this.body=Bodies.rectangle(x, y, w, h , options);
  		World.add(world, this.body);
+
 	}
 	display()
 	{
+
 			var groundPos=this.body.position;		
-            push()
+
+			push()
 			translate(groundPos.x, groundPos.y);
 			rectMode(CENTER)
 			strokeWeight(4);
